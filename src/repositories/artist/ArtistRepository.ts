@@ -1,5 +1,5 @@
-import { IAlbum } from '../../Models/Album';
-import { IArtist } from '../../Models/Artist';
+import { IAlbum } from '../../models/Album';
+import { IArtist } from '../../models/Artist';
 import { IArtistRepository } from './IArtistRepository';
 
 export class ArtistRepository implements IArtistRepository {

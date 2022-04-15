@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { artists } from '../data';
-import { IArtist } from '../Models/Artist';
+import { IArtist } from '../models/Artist';
 import { ArtistRepository } from '../repositories/';
 
 const repo = new ArtistRepository(artists);

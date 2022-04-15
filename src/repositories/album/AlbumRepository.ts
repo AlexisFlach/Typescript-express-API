@@ -1,4 +1,4 @@
-import { IAlbum } from '../../Models/Album';
+import { IAlbum } from '../../models/Album';
 import { IAlbumRepository } from './IAlbumRepository';
 
 export class AlbumRepository implements IAlbumRepository {
